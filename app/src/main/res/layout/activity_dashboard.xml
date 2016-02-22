@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clickable="false"
+            android:scaleType="center"
+            android:background="@color/primary"
+            android:src="@drawable/logodash"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/primary"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnliquidacion"
+                style="@style/DashboardButton"
+                android:layout_margin="30dp"
+                android:drawableTop="@drawable/money"
+                android:text="Liquidacion"/>
+
+            <Button
+                android:id="@+id/btnlegal"
+                style="@style/DashboardButton"
+                android:layout_margin="30dp"
+                android:drawableTop="@drawable/law"
+                android:text="Legal"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/primary"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncompra"
+                style="@style/DashboardButton"
+                android:layout_margin="30dp"
+                android:drawableTop="@drawable/order"
+                android:text="Orden Compra"/>
+
+            <Button
+                android:id="@+id/btnconfig"
+                style="@style/DashboardButton"
+                android:layout_margin="30dp"
+                android:drawableTop="@drawable/settings"
+                android:text="Configuración"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/primary"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnsalir"
+                style="@style/DashboardButton"
+                android:layout_margin="30dp"
+                android:drawableTop="@drawable/shutdown"
+                android:text="Salir"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.byadvance.com"
+        android:textColor="@color/icons"
+        android:background="@color/accent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:paddingTop="10dip"/>
+</LinearLayout>
